@@ -3,6 +3,16 @@ body{
 }
 header{
     text-align: right;
+    height: 130px;
+    text-decoration: none;
+    margin-top: 30px;
+    padding-right: 100px;
+}
+header a{
+    text-decoration: none;
+    padding-right: 50px;
+    font-size: 20px;
+    color: black;
 }
 h1{
     font-size: 50px;
@@ -24,12 +34,15 @@ p{
     margin-left: 5%;
     padding-left: 2%;
 }
-.half-width img{
+.half-width  img{
     width: 100%;
 }
 section{
     height: 500px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
+}
+.description{
+    padding-bottom: 440px;
 }
 .link-button{
     text-decoration: none;
@@ -40,8 +53,46 @@ section{
     font-weight: 700;
    
 }
+.projects{
+    height: 700px;
+    background-color: rgb(244, 244, 248);
+    margin: 0px;
+    padding-left: 180px;
+}
+.projects h2{
+    text-align: center;
+}
+.one-third-width{
+    width: 25%;
+    float: left;
+    margin-left: 2%;
+    background-color: white;
+    padding: 12px;
+    border-radius: 10px;
+    box-shadow:5px 5px 10px rgb(206, 215, 223);
+}
+.one-third-width img{
+     width:100%;
+}
 
 .inquiry{
     background-image: url(images/image\ 6.png);
-    text-align: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 130px 0 0 450px;
+    height: 180px;
+    width: 50%;
+}
+.inquiry-div{
+    width: 50%;
+    color: white;
+    float: left;
+    margin-top: 70px;
+   }
+.inquiry-div a{
+    margin-left:250px;
+  
+}
+.inquiry-div h1{
+    margin-left: 60px;
 }
