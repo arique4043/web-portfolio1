@@ -41,6 +41,22 @@ section{
     height: 500px;
     padding-bottom: 50px;
 }
+.service-area{
+    margin-top: 0px;
+    height: 300px;
+    text-align: center;
+    
+    
+}
+.service-area h2{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.service{
+    margin-bottom: 0px;
+    border: 3px solid rgb(235, 229, 229);
+}
 .description{
     padding-bottom: 440px;
 }
@@ -74,12 +90,11 @@ section{
 .one-third-width img{
      width:100%;
 }
-
 .inquiry{
     background-image: url(images/image\ 6.png);
     background-repeat: no-repeat;
     background-size: contain;
-    margin: 130px 0 0 450px;
+    margin: 100px 0 0 450px;
     height: 180px;
     width: 50%;
 }
@@ -87,12 +102,15 @@ section{
     width: 50%;
     color: white;
     float: left;
-    margin-top: 70px;
+    margin-top: 90px;
    }
 .inquiry-div a{
     margin-left:250px;
-  
+    margin-top: 500px;
 }
 .inquiry-div h1{
     margin-left: 60px;
+}
+footer{
+    text-align: center;
 }
